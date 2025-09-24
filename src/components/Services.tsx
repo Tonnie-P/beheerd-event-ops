@@ -1,6 +1,8 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Wifi, Printer, Laptop, Phone, Network, Users, Video, Monitor, Radio, Globe } from "lucide-react";
 
+// Fixed: Radio icon used for Live Streaming (Broadcast is not available in lucide-react)
+
 const Services = () => {
   const services = [
     {
