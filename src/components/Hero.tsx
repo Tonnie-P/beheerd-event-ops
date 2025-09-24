@@ -29,8 +29,8 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl leading-relaxed">
-            Comprehensive IT infrastructure and trained ICS personnel for oil spill emergency response exercises. 
-            Networks, wireless systems, professional printing, and expert technical support when it matters most.
+            Comprehensive IT infrastructure, AV systems, and trained ICS personnel for oil spill emergency response exercises. 
+            From command center networks to live streaming and hybrid participation - complete technical solutions when it matters most.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">

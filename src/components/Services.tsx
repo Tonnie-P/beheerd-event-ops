@@ -1,5 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Wifi, Printer, Laptop, Phone, Network, Users } from "lucide-react";
+import { Wifi, Printer, Laptop, Phone, Network, Users, Video, Monitor, Radio, Globe } from "lucide-react";
 
 const Services = () => {
   const services = [
@@ -12,6 +12,26 @@ const Services = () => {
       icon: Wifi,
       title: "Wireless Systems", 
       description: "Professional WiFi deployment and management, providing seamless connectivity across exercise areas and mobile units."
+    },
+    {
+      icon: Video,
+      title: "Audio Visual Systems",
+      description: "Professional AV equipment setup including large displays, sound systems, and presentation technology for command centers."
+    },
+    {
+      icon: Monitor,
+      title: "Teams Room Setups",
+      description: "Complete Microsoft Teams rooms configuration with cameras, microphones, and displays for seamless video collaboration."
+    },
+    {
+      icon: Radio,
+      title: "Live Streaming",
+      description: "Professional live streaming solutions for exercise documentation, training purposes, and stakeholder observation."
+    },
+    {
+      icon: Globe,
+      title: "Hybrid Exercise Support",
+      description: "Integrated solutions enabling both onsite command post operations and remote participant engagement simultaneously."
     },
     {
       icon: Printer,
@@ -44,11 +64,11 @@ const Services = () => {
             <span className="text-primary"> IT SERVICES</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Complete technical infrastructure and expert personnel for oil spill emergency response exercises
+            Complete technical infrastructure, AV systems, and hybrid exercise support for modern emergency response training
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {services.map((service, index) => {
             const IconComponent = service.icon;
             return (

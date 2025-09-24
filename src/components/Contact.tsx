@@ -41,8 +41,8 @@ const Contact = () => {
             <span className="text-foreground">SUPPORT</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Ready to ensure your next oil spill exercise has flawless technical support? 
-            Contact our team of experts today.
+            Ready to ensure your next oil spill exercise has complete technical infrastructure including AV, 
+            live streaming, and hybrid participation? Contact our team of experts today.
           </p>
         </div>
 
@@ -89,7 +89,7 @@ const Contact = () => {
               <CardContent className="space-y-6">
                 <p className="text-muted-foreground leading-relaxed">
                   Our team is ready to discuss your oil spill exercise requirements and provide 
-                  a comprehensive technical support solution tailored to your specific needs.
+                  a comprehensive technical solution including AV, streaming, and hybrid participation tailored to your specific needs.
                 </p>
                 
                 <div className="space-y-4">
@@ -97,6 +97,13 @@ const Contact = () => {
                     <h3 className="font-semibold text-primary mb-2">Exercise Planning Phase</h3>
                     <p className="text-sm text-muted-foreground">
                       Contact us during planning to ensure all technical requirements are met
+                    </p>
+                  </div>
+                  
+                  <div className="p-4 bg-primary/5 rounded-lg border border-primary/20">
+                    <h3 className="font-semibold text-primary mb-2">Hybrid Exercise Expertise</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Seamless integration of onsite command centers with remote participants and live streaming
                     </p>
                   </div>
                   
