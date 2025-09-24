@@ -13,13 +13,13 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      value: "+31 (0) 20 123 4567",
-      href: "tel:+31201234567"
+      value: "+31 (0) 88 1000 988",
+      href: "tel:+31881000988"
     },
     {
       icon: MapPin,
       title: "Location", 
-      value: "Netherlands",
+      value: "Vaartweg 81B, 8243PD, Lelystad, The Netherlands",
       href: null
     },
     {
@@ -126,7 +126,7 @@ const Contact = () => {
                   <Button 
                     variant="outline" 
                     className="w-full py-6 text-lg border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth"
-                    onClick={() => window.location.href = 'tel:+31201234567'}
+                    onClick={() => window.location.href = 'tel:+31881000988'}
                   >
                     Call Emergency Line
                   </Button>
