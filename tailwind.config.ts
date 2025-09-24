@@ -47,6 +47,12 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Beheerd.Events Brand Colors
+        brand: {
+          green: "hsl(var(--brand-green))",
+          black: "hsl(var(--brand-black))",
+          white: "hsl(var(--brand-white))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +63,17 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      fontFamily: {
+        sans: ['Arial', 'sans-serif'],
+      },
+      backgroundImage: {
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-subtle': 'var(--gradient-subtle)',
+      },
+      boxShadow: {
+        'card': 'var(--shadow-card)',
+        'large': 'var(--shadow-large)',
       },
       borderRadius: {
         lg: "var(--radius)",
