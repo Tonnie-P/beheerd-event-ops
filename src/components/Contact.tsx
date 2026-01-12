@@ -7,8 +7,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "support@beheerd.events",
-      href: "mailto:support@beheerd.events"
+      value: "info@beheerd.events",
+      href: "mailto:info@beheerd.events"
     },
     {
       icon: Phone,
@@ -118,7 +118,7 @@ const Contact = () => {
                 <div className="space-y-3">
                   <Button 
                     className="w-full bg-primary text-primary-foreground hover:bg-primary/90 py-6 text-lg transition-smooth"
-                    onClick={() => window.location.href = 'mailto:support@beheerd.events?subject=Oil Spill Exercise Support Request'}
+                    onClick={() => window.location.href = 'mailto:info@beheerd.events?subject=Oil Spill Exercise Support Request'}
                   >
                     Request Support Quote
                   </Button>
